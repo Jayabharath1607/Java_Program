@@ -1,12 +1,12 @@
-
 public class areaofsquare {
 	public static void main(String[] args) {
-		float length, height,area;
-		length=30.3f;
-		height=10.7f;
+		int side,area;
 		
-		area=length*height;
-		System.out.println("Area of reactangle of length="+length+" height="+height +" is "+area);
-				
+		side= 40;
+		
+		area=side*side;
+		
+		System.out.println("Area of Square is "+area);
+			
 }
 }
